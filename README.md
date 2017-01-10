@@ -27,4 +27,11 @@ The data is obtained and In-Degree *(Affarent Coupling)* and Out-Degree*(Efferen
 **Afferent Couplings (Ca):**| The number of classes in other packages that depend upon classes within the package is an indicator of the package's responsibility. *Afferent = incoming.*
 **Efferent Couplings (Ce):**| The number of classes in other packages that the classes in the package depend upon is an indicator of the package's dependence on externalities. *Efferent = outgoing.*
 
+With the use of those 2 calculations, it is possible to calculate the **Stability** for all the classes loaded from the JAR file.</br>
+This data is then displayed in a Table in the format of:</br>
 
+| Class Name       | In-Degree      | Out-Degree  | Stability    |
+|:----------------:|:--------------:|:-----------:|:------------:|
+| ie.gmit.sw.Runner| a              |   b         |      c       |
+| ie.gmit.sw.Test  | a              |   b         |      c       |
+| ie.gmit.sw.Test2 | a              |   b         |      c       |
