@@ -35,3 +35,12 @@ This data is then displayed in a Table in the format of:</br>
 | ie.gmit.sw.Runner| a              |   b         |      c       |
 | ie.gmit.sw.Test  | a              |   b         |      c       |
 | ie.gmit.sw.Test2 | a              |   b         |      c       |
+
+
+### HOW TO RUN
+1. Get this Repository
+2. ECLIPSE IDE: Create new Java Project (can be any other IDE) - **OR** simply *Import this Java Project (skip next steps this way) *
+3. Take the java files and throw into your project.
+4. Run the project (make sure to include any External JAR files that your JAR file may include. </br>
+*i.e. this project contains .jar file that uses servlet-api.jar which must be addes as external jar in order for the calculator to run.*
+5. Select your JAR file and see the result.
